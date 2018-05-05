@@ -1,0 +1,477 @@
+
+
+div.NavTop {                /* adjust here for top */
+    
+    max-height: 10%;
+    background-color: white;
+    width: 100%;
+    z-index: 50;
+}
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+body {
+    overflow-x: hidden;
+}
+h1 h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+  
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    min-width: 120px;
+    background-color: teal;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.full-msg {
+    height: 250px;
+}
+
+div.NameButton {
+    margin-left: 200px;
+    padding: 20px 18px;
+    background-color: teal;
+    color: white;
+    width: 12%;
+    text-align: center;
+    height: 8%;
+    margin-top: -12.5px;
+    position: relative;
+    right: 62px;
+    top: -2px;
+    font-weight: bold;
+    font-size: 24px;
+    min-width: 225px;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(90, 89, 89);
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li {
+    float: right;
+    padding: 12px;
+    text-decoration: none;
+    background-color: white;
+    position: relative;
+    top: -80px;
+    left: -10%;
+    border-right-color: #999;
+    border-right-style: solid;
+    border-right-width: 1px;
+    max-height: 4px;
+}
+
+li a:link {
+    text-decoration: none;
+    color: rgb(90,89,89);
+}
+
+li a:visited {
+    text-decoration: none;
+    color: rgb(90,89,89);
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(90,89,89);
+}
+
+li a:active {
+    text-decoration: none;
+    color: rgb(90,89,89);
+}
+
+div.BreadCrumbs {
+    position: relative;
+    left: 50px;
+    margin-right: 5%;
+}
+
+div.VeryBack {
+        background-color: #CCC;
+        background-image: url("texture3.png");
+        background-repeat: round;
+        width: 100%;
+}
+
+.VeryBackCorrect {
+    height: 100%;
+}
+
+div.BackSection {
+    padding: 36px;
+}
+
+div.ContentSection {                      /* this is the best way to adjust width id = main-content */
+    background-color: white;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 18px;
+    min-width: 50%;
+    max-width: 90%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14px;
+    min-height: 63%;
+}
+
+div.ContentHeader {
+    color: teal;
+}
+
+div.ImageP {
+
+}
+
+img.ContentPicture {
+    float: left;
+    height: 20%;
+    width: 20%;
+    margin-right: 8px;
+}
+
+div.preFooter {
+
+    max-height: 10px;
+    height: 10px;
+    background-color: teal;
+    width: 100%;
+}
+
+div.footer {
+    text-align: center;
+    background-color: #444;
+    padding-top: 20px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: teal;
+    
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    color: #DDD;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+
+}
+
+
+h1 h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+  
+div.img-container {
+    position: relative;
+    float: left;
+
+}
+
+div.img-center {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: teal;
+    width: 300px;
+    max-width: 300px;
+    height: 35px;
+    
+}
+
+p.image {
+    margin: 12px;
+}
+
+.NormalP{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.spacing {
+    margin: 8px;
+}
+
+div.image-wrap {
+    display: inline-block;
+
+}
+
+div.image-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+  body {
+    
+  }
+/* adjusts the list navbar */
+div.BreadCrumbs {
+    position: relative;
+    right: -132px;
+    margin-right: 5%;
+}
+/* adjusts the spacing constant */
+.spacing {
+    margin: 7px;
+}
+/* adjusts the content section */
+  div.ContentSection {
+    background-color: white;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 35%;
+    padding: 18px;
+    min-width: 559px;
+    max-width: 768px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14px;
+    min-height: 75%;
+  }
+  
+  /*adjusts button header settings*/
+  div.NameButton {
+
+    width: 12%;
+    height: 8%;
+    margin-left: 100px;
+    position: relative;
+    right: 72px;
+    top: -2px;
+    font-size: 24px;
+
+
+}
+    /*adjusts img sizes */
+img {
+    height: 150;
+    width: 225;
+}
+    /*adjusts img container sizes */
+div.img-container {
+    height: 150;
+    width: 225;
+    position: relative;
+    float: left;
+
+}
+    /*adjust img labels */
+div.img-center {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: teal;
+    width: 225px;
+    max-width: 225px;
+    height: 28px;
+    
+}
+
+
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  body {
+   
+  }
+  /* adjusts the list navbar */
+div.BreadCrumbs {
+    position: relative;
+    left: 180px;
+    top: 30px;
+    margin-right: 5%;
+}
+/* adjusts the spacing constant */
+.spacing {
+    margin: 6px;
+}
+/* adjusts the content section */
+  div.ContentSection {
+    background-color: white;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 35%;
+    padding: 18px;
+    min-width: 480px;
+    max-width: 640px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 13px;
+    min-height: 75%;
+  }
+
+  div.NameButton {
+    margin-right: 200px;
+    width: 12%;
+
+}
+    /*adjusts img sizes */
+img {
+    height: 150;
+    width: 225;
+}
+    /*adjusts img container sizes */
+div.img-container {
+    height: 150;
+    width: 225;
+    position: relative;
+    float: left;
+
+}
+    /*adjust img labels */
+div.img-center {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: teal;
+    width: 225px;
+    max-width: 225px;
+    height: 28px;
+    
+}
+
+  
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  body {
+
+  }
+/* adjusts the list navbar */
+div.BreadCrumbs {
+    margin-left: -635px;
+    margin-right: 5%;
+    top: 65px;
+}
+li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+/* adjusts the spacing constant */
+.spacing {
+    margin: 7px;
+}
+/* adjusts the content section */
+  div.ContentSection {
+    background-color: white;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 35%;
+    padding: 18px;
+    min-width: 320px;
+    max-width: 480px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14px;
+    min-height: 75%;
+  }
+
+div.NameButton {
+   
+    margin-left: 0%;
+    margin-right: 20%;
+
+    width: 200px;
+
+    height: 8%;
+    margin-top: -12.5px;
+    position: relative;
+    right: -72px;
+    top: -2px;
+}
+   /*adjusts img sizes */
+   img {
+    height: 200;
+    width: 300;
+}
+    /*adjusts img container sizes */
+div.img-container {
+    height: 200;
+    width: 300;
+    position: relative;
+    float: left;
+
+}
+    /*adjust img labels */
+div.img-center {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: teal;
+    width: 300px;
+    max-width: 300px;
+    height: 28px;
+    
+}
+
+  
+
+}
